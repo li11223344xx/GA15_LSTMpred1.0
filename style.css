@@ -1,0 +1,25 @@
+/* Centering text in the metrics boxes */
+div.css-ocqkz7:nth-child {
+  text-align: center;
+}
+
+/* Increase font size of labels */
+label.css-qrbaxs.effi0qh3{
+  font-size: 18px;
+}
+
+/* 针对主内容区域的按钮调整 */
+div[class*="stContent"] div[class*="stButton"] {
+  display: flex;
+  justify-content: flex-end; /* 将按钮对齐到右侧 */
+}
+
+div[class*="stContent"] button {
+  margin-left: auto;
+  margin-right: 10px; /* 调整按钮右侧边距 */
+}
+
+
+
+
+
